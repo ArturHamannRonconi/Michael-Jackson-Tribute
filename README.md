@@ -2,5 +2,5 @@
 
 if you want know more you can access these links
 
-[Wiki Michael Jackson]("https://pt.wikipedia.org/wiki/Michael_Jackson")  
-[freeCodeCamp]("https://www.freecodecamp.org/")
+[Wiki Michael Jackson](https://pt.wikipedia.org/wiki/Michael_Jackson)  
+[freeCodeCamp](https://www.freecodecamp.org/)
