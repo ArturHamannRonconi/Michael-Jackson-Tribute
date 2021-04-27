@@ -1,0 +1,118 @@
+
+.rodape .container{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	height:auto;
+	background-color:#87cefa;
+}
+.rodape div pre{
+	font-family:URW Chancery L;
+	font-size:20px; 
+}
+.rodape div pre a {
+	text-decoration:none;
+	color:#000;
+}
+.rodape div pre a:hover{
+	color:#FFF;
+}
+.final{
+	margin-top:-20px;
+	margin-left:5px;
+	margin-bottom:5px;
+}
+@media only screen and (min-width:1010px) and (max-width:1320px){
+	.container{
+		max-width:1000px;
+	}
+	.image_tribute_1 img{
+		width:300px;
+	}
+	.image_tribute_2 img{
+		width:401px;
+	}
+	.image_tribute_2{
+		width:400px;
+	}
+	.image_tribute_3 img{
+		width:200px;
+	}
+	.description_2{
+		font-size:13px;
+	}
+	.album_2 img,
+	.album_1 img{
+		width:200px;
+	}
+	.nascimento p{
+		font-size:11px;
+	}
+}	
+
+@media only screen and (min-width:720px) and (max-width:1010px){
+	.container{
+		max-width:700px;
+	}
+	.image_tribute_1 img,
+	.image_tribute_3 img{
+		display:none;
+	}
+	.image_tribute_2 img{
+		width:301px;
+	}
+	.image_tribute_2{
+		width:300px;
+	}
+	.description_2{
+		font-size:10px;
+	}
+	.album_2 img,
+	.album_1 img{
+		width:150px;
+	}
+	.album_1 h1,
+	.album_2 h1{
+		font-size:15px;
+	}
+}
+
+@media only screen and (max-width:720px){
+	.container{
+		max-width:480px;
+	}
+	.album_1 p,
+	.album_2 p,
+	.album_1 strong,
+	.album_2 strong,
+	.description_2,
+	.image_tribute_1 img,
+	.image_tribute_3 img{
+		display:none;
+	}
+	.image_tribute_2 img{
+		width:200px;
+	}
+	.image_tribute_2{
+		width:200px;
+		margin-bottom:30px;
+	}
+	.album_1,
+	.album_2{
+		border:none;
+	}
+	.album_2 img,
+	.album_1 img{
+		width:150px;
+	}
+	.album_1 h1,
+	.album_2 h1{
+		font-size:11px;
+	}
+	.album_1{
+		margin-right:0px;
+	}
+	.album_2{
+		margin-left:0px;
+	}
+}
