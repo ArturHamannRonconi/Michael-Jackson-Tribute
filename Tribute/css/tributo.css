@@ -1,4 +1,98 @@
-
+body {
+	margin:0;
+	padding:0;
+	font-family:serif;
+}
+footer,
+section{
+	display:flex;
+	justify-content:center;
+}
+.container{
+	display:flex;
+	width:100%;
+	max-width:1350px;
+}
+.tributo .container{
+	flex-direction:column;
+	align-items:center;
+	height:auto;
+	background-color:#87cefa;
+}
+.title_and_description{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
+.images{
+	display:flex;
+	justify-content:space-around;
+}
+.image_tribute_1 img{
+	width:400px;
+	margin-top:50px;
+}
+.image_tribute_2 img{
+	max-width:501px;
+	display:block;
+}
+.image_tribute_3 img{
+	width:300px;
+	margin-top:50px;
+	margin-right:50px;
+	margin-left:50px;
+}
+.timeline .container{
+	display:flex;
+	flex-direction:column;
+	height:auto;
+	background-color:#FFF;
+	color:#000;
+}
+.nascimento{
+	display:flex;
+	flex-direction:column;
+	align-items:center;	
+}
+.nascimento p{
+	font-size:13px;
+	margin-left:30px;
+	margin-right:30px;
+}
+.albuns{
+	display:flex;
+	justify-content:space-between;
+	margin-bottom:40px;
+	margin-top:30px;
+}
+.album_1,
+.album_2{
+	margin-left:30px;
+	margin-right:30px;
+	flex:1;
+}
+.album_1{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	padding-right:20px;
+	border-right:1px solid #000;
+}
+.album_1 p,
+.album_2 p{
+	font-size:12px;
+}
+.album_2 img,
+.album_1 img{
+	width:300px;
+}
+.album_2{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	padding-left:20px;
+	border-left:1px solid #000;
+}
 .rodape .container{
 	display:flex;
 	flex-direction:column;
